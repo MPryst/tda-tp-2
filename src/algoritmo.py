@@ -5,9 +5,9 @@ def entrena_to_str(entrena):
     r = []
     for e in entrena:
         if e:
-            r.append('Entreno')
+            r.append('Entrenar')
         else:
-            r.append('Descanso')
+            r.append('Descansar')
     return ', '.join(r)
 
 def max_ganancia(M, D, DIAS):
@@ -81,8 +81,8 @@ def main():
     DIAS, E, S = load(filename)
     M, D = algoritmo(DIAS, E, S)
     entrena = reconstruccion(DIAS, M, D)
-    print('M: ', M, ' --- D: ', D)
-    print('max ganancia', max_ganancia(M, D, DIAS))
+    #print('M: ', M, ' --- D: ', D)
+    print('Ganancia:', max_ganancia(M, D, DIAS))
     print(entrena_to_str(entrena))
 
 
