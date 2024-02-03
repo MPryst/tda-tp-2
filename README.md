@@ -81,3 +81,13 @@ Para generar un archivo que se pueda usar en el algoritmo principal, se pude red
 ```bash
 python3 generador.py 5 73 > ejemplo.dat
 ```
+
+## Datos para graficar
+Utiliza al generador.py para generar sets de datos, y los resuelve utilizando algoritmo.py. Recibe por parametro la semilla a utilizar en el generador. 
+Genera valores desde 500 hasta 20k, con saltos de 500.
+
+Los datos son guardados en /data/n.dat, siendo n la cantidad de días.
+
+El resultado final se guarda en /data/run-results.csv, listo para abrir y generar un gráfico de cantidad de días vs tiempo de ejecución (milisegundos).
+
+Cada ejecución sobreescribe los archivos.
