@@ -91,3 +91,8 @@ Los datos son guardados en /data/n.dat, siendo n la cantidad de días.
 El resultado final se guarda en /data/run-results.csv, listo para abrir y generar un gráfico de cantidad de días vs tiempo de ejecución (milisegundos).
 
 Cada ejecución sobreescribe los archivos.
+
+se ejecuta:
+```bash
+./graficador.sh
+```
